@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Thanh Tùng Shop</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["mouse", "laptop", "Keyboard", ];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Le Plateau Coffee bắt đầu từ năm 2015,
+                    từ niềm đam mê cà phê của nhóm những bạn trẻ du học ở nước ngoài về,
+                    tiên phong rang cà phê dùng công nghệ hơi nóng (Hot air) để tránh hạt trực tiếp chạm lửa,
+                    giữ nguyên hương vị đặc sắc cho cà phê.
+                    Giai đoạn đầu, số lượng vô cùng hạn chế, chỉ dành cho người thân quen sử dụng
+                </p>
+                <br />
+                <p>
+                    Năm 2016, cà phê Le Plateau chính thức đóng gói và xuất xưởng,
+                    dành cho các du học sinh Việt Nam mang đi nước ngoài và bạn bè nước ngoài đến Việt Nam mang về nước,
+                    vì hương vị tương tự các nhãn cà phê nổi tiếng trên thế giới.<br />
+                    Năm 2018, Le Plateau Coffee đoạt huy chương vàng Sản Phẩm Asean tổ chức ở Singapore.Từ năm 2019
+                    đến nay,
+                    Le Plateau Coffee với sứ mạng lớn lao là giúp đỡ nông dân các vùng trồng cà phê trên cả nước.
+                    Công ty đến những vùng khó khăn nhất như Sơn La Điện Biên, Khe Sanh (Quảng Trị), Măng Đen (Kon Tum),
+                    Lạc Dương, Cầu Đất (Lâm Đồng) để thu những hạt cà phê Arabica và Robusta đã chín của bà con, đem về
+                    chế biến theo công nghệ đặc biệt để giữ hương vị<br />
+                    Chúng tôi mong muốn sự đóng góp của khách hàng sẽ giúp chúng tôi ngày một phát triển để từ đó củng
+                    cố thêm lòng tin của khách hàng với chúng tôi. Chúng tôi rất biết ơn sự tin tưởng của khách hàng
+                    trong suốt gần 10 năm qua và chúng tôi luôn tâm niệm rằng cần phải cố gắng hơn nữa để xứng đáng với
+                    phương châm đề ra “Nếu những gì chúng tôi không có, nghĩa là bạn không cần .<br />
+                    Cuối năm 2022, xưởng rang và đóng gói của Le Plateau đạt chuẩn FDA (chuẩn cao nhất về thực phẩm-
+                    dược phẩm Hoa Kỳ),
+                    và được Anh Định là một trong những người rang cà phê giỏi nhất Việt Nam hiện nay thực hiện việc
+                    rang
+                    đúng thời gian và nhiệt độ để hạt cà phê đạt mức tối ưu về hương và vị.
+                <p></p>
+                Chúng tôi xin chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng tôi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

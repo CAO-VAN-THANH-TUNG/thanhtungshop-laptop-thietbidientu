@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thanh Tùng Shop </title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["mouse", "laptop", "Keyboard", ];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://phongvu.vn/laptop-msi-stealth-18-mercedes-amg-motorsport-a1vhg-080vn--s240800804"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc1.jpg">
+                    <h2>Laptop MSI Stealth 18 Mercedes AMG A1VHG-080VN (Ultra 9 185H/RAM 64GB/GeForce RTX 4080/2TB SSD/ Windows 11)</h2>
+                </a>
+                <br />
+                <h5>Doanh ngiệp &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://phongvu.vn/cong-nghe/tren-tay-lenovo-ideapad-slim-3-15iah8/"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc2.jpg">
+                    <h2>Trên tay Lenovo IdeaPad Slim 3 15IAH8: Chỉ 14 triệu nhưng quá toàn diện cho sinh viên và dân văn phòng</h2>
+                </a>
+                <br />
+                <h5>Thanh niên &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://phongvu.vn/cong-nghe/laptop-gaming-la-gi-cac-dong-laptop-gaming-dang-mua-nam-2024/"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc3.jpg">
+                    <h2>Laptop gaming là gì? Các dòng laptop gaming đáng mua năm 2024</h2>
+                </a>
+                <br />
+                <h5>VOV &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://gearvn.com/blogs/cong-nghe/danh-gia-chuot-gaming-dat-gia-nhat-the-gioi-mad-catz-r-a-t-pro-x3-supreme?srsltid=AfmBOor30ztSb3Ba0uQ0SnJDC2BExGIf6bXXmogvuUwgU5ZSbIMtO9hc"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc5.jpg">
+                    <h2>Đánh giá chuột gaming đắt giá nhất thế giới: Mad Catz R.A.T. PRO X3 Supreme</h2>
+                </a>
+                <br />
+                <h5>VietQ &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://apshop.vn/blogs/kien-thuc-gaming-gear/epos-sennheiser-gsp-301-tai-nghe-chat-luong-cho-game-thu-kho-tinh"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc4.jpg" height="148px" width="224px;">
+                    <h2>EPOS SENNHEISER GSP 301 TAI NGHE CHẤT LƯỢNG CHO GAME THỦ KHÓ TÍNH</h2>
+                </a>
+                <br />
+                <h5>Zing &emsp; 9 giờ</h5>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
