@@ -6,7 +6,7 @@ window.onload = function () {
     khoiTao();
 
     // thêm tags (từ khóa) vào khung tìm kiếm
-    var tags = ["mouse", "laptop", "Keyboard", ];
+    var tags = ["mouse", "laptop", "Keyboard","Pin backup","Shockproof bag", ];
     for (var t of tags) addTags(t, "index.html?search=" + t, true);
 
     phanTich_URL_chiTietSanPham();
