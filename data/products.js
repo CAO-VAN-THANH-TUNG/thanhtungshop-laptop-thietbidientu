@@ -230,7 +230,7 @@ var list_products = [{
     "masp": "laptop9"
 }, {
     "name": "Laptop Acer Aspire Lite 14 51M 36MH i3 1215U NX.KTVSV.001",
-    "company": "mouse",
+    "company": "laptop",
     "img": "img/products/lap11.jpg",
     "price": "12.990.000",
     "star": 0,
@@ -470,14 +470,14 @@ var list_products = [{
         "value": "1.000"
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+    "compatible": "windows",
+    "resolution": "1000 DPI",
+    "connect": "Dây cắm USB",
+    "distance": "Dây dài 152 cm",
+    "volume": "85 g",
+    "trademark": "Trung Quốc",
+    "made": "Trung Quốc"
+
 }
 ,
     "masp": "laptop20"
@@ -493,15 +493,15 @@ var list_products = [{
         "value": "0"
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop21"
 }, {
@@ -516,15 +516,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop22"
 }, {
@@ -539,15 +539,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "kết nối được 10 m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop23"
 }, {
@@ -562,14 +562,17 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop24"
@@ -584,15 +587,18 @@ var list_products = [{
         "name": "moiramat",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop25"
@@ -607,15 +613,18 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop26"
@@ -630,20 +639,23 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop27"
 }, {
-    "name": "Keyboard Bluetooth Logitech Keys-To-Go 2",
+    "name": "Keyboard Bluetooth Logitech Keys_To_Go 2",
     "company": "Keyboard",
     "img": "img/products/phim05.jpg",
     "price": "260.000",
@@ -653,15 +665,18 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop28"
@@ -676,15 +691,18 @@ var list_products = [{
         "name": "tragop",
         "value": "0"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop29"
@@ -699,15 +717,18 @@ var list_products = [{
         "name": "giamgia",
         "value": "800.000"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop30"
@@ -722,15 +743,18 @@ var list_products = [{
         "name": "giamgia",
         "value": "500.000"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+   "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop31"
@@ -745,15 +769,18 @@ var list_products = [{
         "name": "tragop",
         "value": "0"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop32"
@@ -768,15 +795,18 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop33"
@@ -791,15 +821,18 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+ "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Dây dài 1m",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "không có",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop34"
@@ -814,16 +847,16 @@ var list_products = [{
         "name": "moiramat",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+   "detail": {
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "khoảng cách kết nối 10m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop35"
 }, {
@@ -838,15 +871,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop36"
 }, {
@@ -861,15 +894,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết nối bluetooth",
+        "distance": "kết nối trong khoảng 10 m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop37"
 }, {
@@ -884,15 +917,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop38"
 }, {
@@ -907,15 +940,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop39"
 }, {
@@ -930,15 +963,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop40"
 }, {
@@ -953,15 +986,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop41"
 }, {
@@ -976,15 +1009,15 @@ var list_products = [{
         "value": ""
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Dây cắm USB",
+        "distance": "Dây dài 152 cm",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop42"
 }, {
@@ -998,16 +1031,16 @@ var list_products = [{
         "name": "moiramat",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+   "detail": {
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "khoảng cách kết nối 10m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop43"
 }, {
@@ -1021,16 +1054,16 @@ var list_products = [{
         "name": "",
         "value": ""
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+  "detail": {
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "khoảng cách kết nối 10m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop44"
 }, {
@@ -1044,16 +1077,16 @@ var list_products = [{
         "name": "giareonline",
         "value": "22.990.000"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+   "detail": {
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "khoảng cách kết nối 10m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop45"
 }, {
@@ -1068,15 +1101,15 @@ var list_products = [{
         "value": "0"
     },
     "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
-}
+        "compatible": "windows",
+        "resolution": "1000 DPI",
+        "connect": "Kết Nối Bluetooth",
+        "distance": "khoảng cách kết nối 10m",
+        "volume": "85 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc"
+    
+    }
 ,
     "masp": "laptop46"
 }, {
@@ -1090,15 +1123,18 @@ var list_products = [{
         "name": "giamgia",
         "value": "500.000"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+"detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop47"
@@ -1113,15 +1149,18 @@ var list_products = [{
         "name": "giareonline",
         "value": "19.990.000"
     },
-    "detail": {
-    "screen": "15.6', Full HD, IPS",
-    "os": "Windows 11",
-    "cpu": "Intel Core i7-1165G7, 4 nhân 8 luồng",
-    "ram": "16 GB",
-    "rom": "512 GB SSD",
-    "usbPorts": "3 x USB-A, 1 x USB-C",
-    "storageExpansion": "Hỗ trợ tối đa 1 TB qua khe cắm M.2",
-    "battery": "56 Wh"
+   "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
 }
 ,
     "masp": "laptop48"
@@ -1136,17 +1175,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
-    },
+   "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
+},
     "masp": "49"
 }, {
     "name": "Keyboard wired Gaming Asus TUF K1",
@@ -1159,17 +1200,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
-    },
+   "detail": {
+    "compatible": "WindowsmacOS",
+    "connect": "Bluetooth",
+    "distance": "10 m",
+    "type": "Compact (Rút gọn)",
+    "number": "79 phím ",
+    "Material": "Nhựa",
+    "battery": "2 pin AAA",
+    "software": "Logi Options +",
+    "trademark": "Thuỵ sĩ",
+    "size": "Dài 27.9 cm - Rộng 12.4 cm - Cao 1.6 cm - Nặng 423 g",
+    "made": "Trung Quốc",
+},
     "masp": "49"
 } // Túi chống sốc 
 ,{
@@ -1184,15 +1227,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "50"
 },{
@@ -1207,15 +1247,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "51"
 },{
@@ -1230,15 +1267,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "52"
 },{
@@ -1253,15 +1287,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "53"
 },{
@@ -1276,15 +1307,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "54"
 },{
@@ -1299,15 +1327,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "55"
 },{
@@ -1322,15 +1347,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "56"
 },{
@@ -1345,15 +1367,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "57"
 },{
@@ -1368,15 +1387,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "58"
 },{
@@ -1391,15 +1407,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "59"
 },{
@@ -1414,15 +1427,12 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+        "size": "15 , 14 , 13 ,12 INCH",
+        "colum": "Xanh Dương, Đen , Xám ",
+        "volume": "300g",
+        "trademark": "ThanhtungShop",
+        "made": "VietNam"
+        
     },
     "masp": "60"
 } // bin dự phòng 
@@ -1438,15 +1448,18 @@ var list_products = [{
         "value": "3.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "61"
 },{
@@ -1460,16 +1473,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "62"
 },{
@@ -1483,16 +1499,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "63"
 },{
@@ -1506,16 +1525,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "64"
 },{
@@ -1529,16 +1551,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "65"
 },{
@@ -1552,16 +1577,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "66"
 },{
@@ -1575,16 +1603,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "67"
 },{
@@ -1598,16 +1629,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "68"
 },{
@@ -1621,16 +1655,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "69"
 },{
@@ -1644,16 +1681,19 @@ var list_products = [{
         "name": "giareonline",
         "value": "3.990.000"
     },
-    "detail": {
-        "screen": "IPS LCD, 5.9', Full HD+",
-        "os": "Android 7.0 (Nougat)",
-        "camara": "16 MP và 2 MP (2 camera)",
-        "camaraFront": "13 MP và 2 MP (2 camera)",
-        "cpu": "HiSilicon Kirin 659 8 nhân",
-        "ram": "4 GB",
-        "rom": "64 GB",
-        "microUSB": "MicroSD, hỗ trợ tối đa 128 GB",
-        "battery": "3340 mAh"
+     "detail": {
+      
+        "efficiency": "49%",
+        "core": "Polymer",
+        "utilities": "Sạc không dây Magnetic Màn hình LED báo hiệu Power Delivery",
+        "time": "Khoảng 3 giờ (dùng Adapter 3A)",
+        "inside": "Type C: 5V - 3A , 9V - 2.22A",
+        "outside": "Type C: 5V - 3A, 9V - 3A (Max 27W)Sạc không dây 15W",
+        "size": "Dài 10.7 cm - Ngang 6.9 cm - Dày 2 cm",
+        "battery":"10000 mAh",
+        "volume": "250 g",
+        "trademark": "Trung Quốc",
+        "made": "Trung Quốc",
     },
     "masp": "70"
 }

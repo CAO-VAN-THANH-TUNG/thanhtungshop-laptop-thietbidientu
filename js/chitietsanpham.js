@@ -45,7 +45,6 @@ function phanTich_URL_chiTietSanPham() {
             break;
         }
     }
-    
 
     sanPhamHienTai = timKiemTheoMa(list_products, maProduct);
     if (!sanPhamHienTai) return khongTimThaySanPham();
@@ -53,7 +52,7 @@ function phanTich_URL_chiTietSanPham() {
     var divChiTiet = document.getElementsByClassName('chitietSanpham')[0];
 
     // Đổi title
-    document.title = nameProduct + ' - Thế giới điện thoại';
+    document.title = nameProduct + ' - Power accessories';
 
     // Cập nhật tên h1
     var h1 = divChiTiet.getElementsByTagName('h1')[0];
@@ -84,20 +83,64 @@ function phanTich_URL_chiTietSanPham() {
                            <span>` + sanPhamHienTai.price + `₫</span>`;
     }
 
-    // Cập nhật thông số
+    // Cập nhật thông số tùy thuộc vào loại sản phẩm
     var info = document.getElementsByClassName('info')[0];
-    var s = addThongSo('Màn Hình', sanPhamHienTai.detail.screen);
-    s += addThongSo('Hệ Điều Hành', sanPhamHienTai.detail.os);
-    s += addThongSo('Bộ Vi Xử Lý', sanPhamHienTai.detail.cpu);
-    s += addThongSo('RAM', sanPhamHienTai.detail.ram);
-    s += addThongSo('Dung Lượng Lưu Trữ', sanPhamHienTai.detail.rom);
-    s += addThongSo('Cổng Kết Nối', sanPhamHienTai.detail.usbPorts);
-    s += addThongSo('Hỗ Trợ Thẻ Nhớ', sanPhamHienTai.detail.storageExpansion);
-    s += addThongSo('Pin', sanPhamHienTai.detail.battery);
+    var s = "";
+
+    if (sanPhamHienTai.company.toLowerCase() === 'laptop') {
+        s += addThongSo('Màn Hình', sanPhamHienTai.detail.screen);
+        s += addThongSo('Hệ Điều Hành', sanPhamHienTai.detail.os);
+        s += addThongSo('Bộ Vi Xử Lý', sanPhamHienTai.detail.cpu);
+        s += addThongSo('RAM', sanPhamHienTai.detail.ram);
+        s += addThongSo('Dung Lượng Lưu Trữ', sanPhamHienTai.detail.rom);
+        s += addThongSo('Cổng Kết Nối', sanPhamHienTai.detail.usbPorts);
+        s += addThongSo('Hỗ Trợ Thẻ Nhớ', sanPhamHienTai.detail.storageExpansion);
+        s += addThongSo('Pin', sanPhamHienTai.detail.battery);
+    }if (sanPhamHienTai.company.toLowerCase() === 'mouse') {
+        s += addThongSo('Độ phân giải', sanPhamHienTai.detail.resolution || 'Không có thông tin');
+        s += addThongSo('Tương thích', sanPhamHienTai.detail.compatible || 'Không có thông tin');
+        s += addThongSo('Kết nối', sanPhamHienTai.detail.connect || 'Không có thông tin');
+        s += addThongSo('Độ dài dây/Khoảng cách kết nối:', sanPhamHienTai.detail.distance || 'Không có thông tin');
+        s += addThongSo('Khối lượng:', sanPhamHienTai.detail.volume || 'Không có thông tin');
+        s += addThongSo('Thương hiệu của:', sanPhamHienTai.detail.trademark || 'Không có thông tin');
+        s += addThongSo('Sản xuất tại:', sanPhamHienTai.detail.made || 'Không có thông tin');
+    }if (sanPhamHienTai.company.toLowerCase() === 'keyboard') {
+        s += addThongSo('Tương thích', sanPhamHienTai.detail.compatible || 'Không có thông tin');
+        s += addThongSo('Kết nối', sanPhamHienTai.detail.connect || 'Không có thông tin');
+        s += addThongSo('Số Phím:', sanPhamHienTai.detail.number || 'Không có thông tin');
+        s += addThongSo('Kiểu bàn phím:', sanPhamHienTai.detail.type || 'Không có thông tin');
+        s += addThongSo('Chất liệu keycaps :', sanPhamHienTai.detail.Material || 'Không có thông tin');
+        s += addThongSo('Pin:', sanPhamHienTai.detail.battery|| 'Không có thông tin');
+        s += addThongSo('Phần mềm hỗ trợ:', sanPhamHienTai.detail.software || 'Không có thông tin');
+        s += addThongSo('Độ dài dây/Khoảng cách kết nối:', sanPhamHienTai.detail.distance || 'Không có thông tin');
+        s += addThongSo('Kích Thước:', sanPhamHienTai.detail.size || 'Không có thông tin');
+        s += addThongSo('Thương hiệu của:', sanPhamHienTai.detail.trademark || 'Không có thông tin');
+        s += addThongSo('Sản xuất tại:', sanPhamHienTai.detail.made || 'Không có thông tin');
+    }if (sanPhamHienTai.company.toLowerCase() === 'pin backup') {
+        s += addThongSo('Dung Lượng Bin', sanPhamHienTai.detail.battery || 'Không có thông tin');
+        s += addThongSo('lõi pin: ', sanPhamHienTai.detail.core || 'Không có thông tin');
+        s += addThongSo('Thời gian sạc đầy pin: ', sanPhamHienTai.detail.time || 'Không có thông tin');
+        s += addThongSo('Nguồn ra: ', sanPhamHienTai.detail.outside || 'Không có thông tin');
+        s += addThongSo('Nguồn vào: ', sanPhamHienTai.detail.inside || 'Không có thông tin');
+        s += addThongSo('Kích thước:: ', sanPhamHienTai.detail.size || 'Không có thông tin');
+        s += addThongSo('Công nghệ/Tiện ích:', sanPhamHienTai.detail.utilities || 'Không có thông tin');
+        s += addThongSo('Hiệu suất sạc:', sanPhamHienTai.detail.efficiency || 'Không có thông tin');
+        s += addThongSo('Khối lượng:', sanPhamHienTai.detail.volume || 'Không có thông tin');
+        s += addThongSo('Thương hiệu của:', sanPhamHienTai.detail.trademark || 'Không có thông tin');
+        s += addThongSo('Sản xuất tại:', sanPhamHienTai.detail.made || 'Không có thông tin');
+    }if (sanPhamHienTai.company.toLowerCase() === 'shockproof bag') {
+        s += addThongSo('Màu:', sanPhamHienTai.detail.colum || 'Không có thông tin');
+        s += addThongSo('Khối lượng:', sanPhamHienTai.detail.volume || 'Không có thông tin');
+        s += addThongSo('Thương hiệu của:', sanPhamHienTai.detail.trademark || 'Không có thông tin');
+        s += addThongSo('Sản xuất tại:', sanPhamHienTai.detail.made || 'Không có thông tin');
+        s += addThongSo('Kích Thước:', sanPhamHienTai.detail.size || 'Không có thông tin');
+    }
     
+
     info.innerHTML = s;
 
-    // Cập nhật hình
+
+    // Cập nhật hình ảnh
     var hinh = divChiTiet.getElementsByClassName('picture')[0];
     hinh.getElementsByTagName('img')[0].src = sanPhamHienTai.img;
     document.getElementById('bigimg').src = sanPhamHienTai.img;
@@ -115,6 +158,7 @@ function phanTich_URL_chiTietSanPham() {
         smartSpeed: 450
     });
 }
+
 
 
 
@@ -148,6 +192,14 @@ function addThongSo(ten, giatri) {
                 <p>` + ten + `</p>
                 <div>` + giatri + `</div>
             </li>`;
+}
+function addThongSoGroup(title, thongSos) {
+    let html = `<h4>` + title + `</h4><ul>`;
+    for (let thongSo of thongSos) {
+        html += addThongSo(thongSo.ten, thongSo.giatri);
+    }
+    html += `</ul>`;
+    return html;
 }
 
 // add hình
